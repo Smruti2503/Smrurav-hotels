@@ -927,14 +927,14 @@
   color: #EAB543;
 }
 
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 240px) {
   html {
     font-size: 50%;
     word-wrap: break-word;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media (min-width:241px) and (max-width: 450px) {
   html {
     font-size: 62.5%;
   }
