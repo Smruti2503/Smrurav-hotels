@@ -4,10 +4,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Merriweather', serif;
-  overflow-x: hidden;
+ 
 }
 
-/*---NAvigation Section--*/
+/*---Navigation Section--*/
 #navigation .navbar {
   padding: 1.2rem 0.4rem;
 }
@@ -631,25 +631,8 @@
   background: #EAB543;
 }
 
-#clients .carousel-control-prev {
-  position: absolute;
-  left: -4%;
-}
 
-#clients .carousel-control-prev span i {
-  color: black;
-  font-size: 2rem;
-}
 
-#clients .carousel-control-next {
-  position: absolute;
-  right: -4%;
-}
-
-#clients .carousel-control-next span i {
-  color: black;
-  font-size: 2rem;
-}
 
 #clients .client1 {
   padding: 2rem;
