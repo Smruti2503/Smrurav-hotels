@@ -1,0 +1,17 @@
+@mixin primaryButton{
+
+    background: #EAB543;
+    border: 0.1rem solid #EAB543;
+
+    color: white;
+    transition: 0.3s linear;
+    padding: 0.8rem 2rem;
+}
+
+
+@mixin hover{
+
+
+    background: transparent;
+    color: #EAB543;
+}

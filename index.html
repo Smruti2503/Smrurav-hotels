@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smrurav Hotels</title>
+
+
+  <!---Bootstrap 5 CDn-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+
+  <!---CUSTOM CSS-->
+  <link rel="stylesheet" href="style.css">
+
+  <!---Font Awesome CDN---->
+  <script src="https://use.fontawesome.com/a707207462.js"></script>
+
+  <!---Animate on Scroll CDN-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!---Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!----Navbar Section---->
+  <section id="navigation">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Smrurav</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+
+          </ul>
+          <form class="d-flex">
+
+            <button class="btn " type="submit">Book Online</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </section>
+
+
+  <!----Middle Header Section-->
+  <section id="header">
+
+    <div class="container"  data-aos="fade-up" data-aos-duration="3000">
+      <div class="row">
+        <div class="col-12 header-text">
+          <h2>For Dream Holidays</h2>
+          <h5>Hotel & Resort</h5>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!----Order Section---->
+  <section id="order">
+
+
+    <div class="container" data-aos="fade-down" data-aos-duration="3000">
+      <div class="row">
+        <div class="col-12">
+          <div class="form-container">
+            <form action="" method="POST">
+              <div class="first">
+                <p>check In Gate:</p>
+                <input type="date" name="idate" id="" required>
+              </div>
+
+              <div class="second">
+                <p>Check Out Date:</p>
+                <input type="date" name="odate" id="" required>
+              </div>
+
+              <div class="third">
+                <p>Adults :</p>
+                <select name="adult" id="" required>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+
+              <div class="fourth">
+                <p>Children :</p>
+                <select name="children" id="">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+              <div class="fifth">
+                <p>Rooms</p>
+                <select name="rooms" id="" required>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+
+              <div class="sixth">
+                <button type="submit" class="btn">Book Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!---About Section----->
+  <section id="about">
+    <div class="container" >
+      <div class="row">
+        <div class="col-lg-6 img" data-aos="fade-up" data-aos-duration="3000">
+          <div class="img-container">
+            <div class="experience"><span>20</span> YEARS OF SERVICE EXPERIENCE</div>
+            <figure>
+              <img class="img-fluid" src="images/about-img.jpg" alt="" srcset="">
+
+            </figure>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6 text" data-aos="fade-down" data-aos-duration="3000">
+
+          <div class="about-text">
+            <small>About our Company</small>
+            <h6>Make the Customer the Hero of Your Story</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Facilis modi consectetur maiores commodi tempora animi ratione?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Totam corporis delectus quis dolore itaque doloribus,
+              recusandae iusto perspiciatis nihil obcaecati.</p>
+
+            <button type="submit" class="btn">Learn More</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!---Rooms Section-->
+  <section id="rooms">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-5"  data-aos="zoom-in-left" data-aos-duration="3000">
+          <h3>OUR ROOMS</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-aos="flip-up" data-aos-duration="3000">
+          <div class="firstroom room">
+            <figure>
+              <img class="img-fluid" src="images/room4.jpg" alt="" srcset="">
+            </figure>
+
+            <h4>Premium Double Bed</h4>
+            <p><span>$250</span> per Night</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-aos="flip-up" data-aos-duration="3000">
+          <div class="secondroom room">
+            <figure>
+              <img class="img-fluid" src="images/room2.jpg" alt="" srcset="">
+            </figure>
+
+            <h4>Classic Double Bed</h4>
+            <p><span>$150</span> per Night</p>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-aos="flip-up" data-aos-duration="3000">
+          <div class="thirdroom room">
+            <figure>
+              <img class="img-fluid" src="images/room3.jpg" alt="" srcset="">
+            </figure>
+
+            <h4>Superior Double Bed</h4>
+            <p><span>$350</span> per Night</p>
+
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 mt-0 mt-lg-5" data-aos="flip-up" data-aos-duration="3000">
+          <div class="firstroom room">
+            <figure>
+              <img class="img-fluid" src="images/room1.jpg" alt="" srcset="">
+            </figure>
+
+            <h4>Premium Double Bed</h4>
+            <p><span>$250</span> per Night</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 mt-5" data-aos="flip-up" data-aos-duration="3000">
+          <div class="secondroom room">
+            <figure>
+              <img class="img-fluid" src="images/room5.jpg" alt="" srcset="">
+            </figure>
+
+            <h4>Classic Double Bed</h4>
+            <p><span>$150</span> per Night</p>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 mt-5" data-aos="flip-up" data-aos-duration="3000">
+          <div class="thirdroom room">
+            <figure>
+              <img class="img-fluid" src="images/home6.jpg" alt="" srcset="">
+            </figure>
+
+            <h4>Superior Double Bed</h4>
+            <p><span>$350</span> per Night</p>
+
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="mr-auto"></div>
+          <button type="submit" class="btn mt-5">View More</button>
+          <div class="ml-auto "></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!----Services Section---->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5 mt-5" data-aos="zoom-in-left" data-aos-duration="3000">
+          <h2>SERVICES</h2>
+        </div>
+        <div class="col-lg-8 textbar " data-aos="zoom-in" data-aos-duration="3000">
+
+          <div class="service1container">
+            <h6>OUR RESTAURANT</h6>
+            <h4>Dining & Drinks</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad hic sed non? Recusandae
+              consequuntur doloribus enim quaerat necessitatibus laboriosamplaceat sunt,
+              velit dolores veritatis?</p>
+            <button type="submit" class="btn">View More</button>
+
+          </div>
+
+
+        </div>
+
+        <div class="col-lg-4 imgsection" data-aos="zoom-in" data-aos-duration="3000">
+
+          <img src="images/bar.jpg" class="img-fluid" alt="" srcset="">
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 pool order-2 order-lg-1" data-aos="zoom-in" data-aos-duration="3000">
+
+            <img src="images/pool.jpg" class="img-fluid" alt="" srcset="">
+
+
+          </div>
+
+          <div class="col-lg-8 order-1 order-lg-2" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="textcontainer">
+              <h6>OUR POOL</h6>
+              <h4>Swimming Pool</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eius!
+                Laudantium molestiae enim ducimus incidunt iste delectus modi,
+                eveniet nostrum quam dolore obcaecati ex ducimus incidunt.
+
+              </p>
+
+              <button type="submit" class="btn">View More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!----Testimonials Section-->
+  <section id="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center heading my-5"  data-aos="zoom-in-left" data-aos-duration="3000">
+          <h2>TESTIMONIALS</h2>
+        </div>
+
+
+        <div class="col-12"   data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-10 col-12">
+                    <div class="client1">
+                      <figure>
+                        <img src="images/asutosh.jpg" class="img-fluid" alt="" srcset="">
+                      </figure>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Repellat, error eum laboriosam et blanditiis alias temporibus pariatur libero.
+                      </p>
+                      <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                          class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                          aria-hidden="true"></i></span>
+                      <h4>ASUTOSH DASH</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-12 col-md-10">
+                    <div class="client1">
+                      <figure>
+                        <img src="images/arpan.jpg" class="img-fluid" alt="" srcset="">
+                      </figure>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Repellat, error eum laboriosam et blanditiis alias temporibus pariatur libero.
+                      </p>
+                      <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                          class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                          aria-hidden="true"></i></span>
+                      <h4>ARPAN MOHANTY</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-10 col-12">
+                    <div class="client1">
+                      <figure>
+                        <img src="images/subhankar.jpg" class="img-fluid" alt="" srcset="">
+                      </figure>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Repellat, error eum laboriosam et blanditiis alias temporibus pariatur libero.
+                      </p>
+                      <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                          class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                          aria-hidden="true"></i></span>
+                      <h4>SUBHANKAR NAYAK</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+              </span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-----Blog Section---->
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-5"  data-aos="zoom-in-left" data-aos-duration="3000">
+          <h2>Our Blog</h2>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="innerblog">
+            <figure>
+              <img src="images/blog1.jpg" class="img-fluid" alt="" srcset="">
+            </figure>
+            <div class="d-flex w-100 flex-wrap justify-content-between align-items-center px-4">
+              <a href="#">News</a>
+              <small>by <span> Smruti Sourav</span></small>
+            </div>
+            <p class="px-4">10 Simple Tricks For getting Better Hotel Services Wherever You Are</p>
+            <div class="d-flex flex-wrap justify-content-between px-4">
+              <h6>10 September 2020</h6>
+              <h6>Comments <span>7</span> </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="innerblog">
+            <figure>
+              <img src="images/blog2.jpg" class="img-fluid" alt="" srcset="">
+            </figure>
+            <div class="d-flex w-100 flex-wrap justify-content-between align-items-center px-4">
+              <a href="#">News</a>
+              <small>by <span> Smruti Sourav</span></small>
+            </div>
+            <p class="px-4">10 Simple Tricks For getting Better Hotel Services Wherever You Are</p>
+            <div class="d-flex flex-wrap justify-content-between px-4">
+              <h6>10 September 2020</h6>
+              <h6>Comments <span>7</span> </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5  mb-lg-0"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <div class="innerblog">
+            <figure>
+              <img src="images/blog3.jpg" class="img-fluid" alt="" srcset="">
+            </figure>
+            <div class="d-flex w-100 flex-wrap justify-content-between align-items-center px-4">
+              <a href="#">News</a>
+              <small>by <span> Smruti Sourav</span></small>
+            </div>
+            <p class="px-4">10 Simple Tricks For getting Better Hotel Services Wherever You Are</p>
+            <div class="d-flex flex-wrap justify-content-between px-4">
+              <h6>10 September 2020</h6>
+              <h6>Comments <span>7</span> </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!---faqs Section-->
+  <section id="faqs">
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col-12 text-center my-4"  data-aos="zoom-in-left" data-aos-duration="3000">
+          <h3>FAQS</h3>
+        </div>
+        <div class="col-12" data-aos="fade-down" data-aos-duration="3000">
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn  btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Q. What if I would like to make a group reservation? <span>+</span>
+
+
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  We consider a group to be a reservation of 4 rooms.
+                  For any group reservations, we request that you contact us
+                  directly or use the form that is spawned when you select 4 rooms in the Check Availability function
+                  above. </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Q. What are your hotel policies? <span>+</span>
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  You can find our hotel policies on our Overview page where
+                  you will find our amenities details, check-in and check-out time,
+                  pets and extra person policies, and our hotel’s cancellation policy. </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Q. How can I make a special request? <span>+</span>
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  During the booking process you can enter any special requests into the
+                  "Special Requests" box on the "Your Details" page. Once you have received your
+                  booking confirmation, you can follow up with the hotel directly to confirm that your request can be
+                  met.
+                  You can find the hotel’s contact details on the Contact Us page of our website. </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Q. How do I know if my reservation is confirmed? <span>+</span>
+
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                  As soon as you have completed the booking process, a confirmation
+                  page will appear in your browser session. This page shows all of your
+                  reservation details, including the booking number and your PIN code,
+                  so you can access your confirmation online. We will also send you a
+                  confirmation email with all of your booking information.
+
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Q. Can I make a reservation without a credit card?
+
+                      <span>+</span>
+
+
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                    No. Sorry, we require a major credit card to guarantee your room reservation.
+                    Please review the terms and cancellation policy before making your reservation.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
+  <!---Footer Section-->
+  <section id="footer">
+    <div class="container-fluid"  data-aos="fade-up" data-aos-duration="3000">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="container1">
+            <a href="#">Smrurav Hotels</a>
+            <div class="social">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="container2">
+            <h6>Quick Links</h6>
+            <ol>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Best Rooms</a></li>
+              <li><a href="#">Our Photo Gallery</a></li>
+              <li><a href="#">Pool Service</a></li>
+            </ol>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="container3">
+            <h6>Reservation</h6>
+            <ol>
+              <li>Tel : 9938XXXX24</li>
+              <li>E-mail : contact@smrurav.com</li>
+              <li></li>
+            </ol>
+          </div>
+
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="container4">
+            <h6>Our Location</h6>
+            <ol>
+              <li>College Square, Near Railway Station</li>
+              <li>Cuttack, Odisha, India.</li>
+            </ol>
+            <input type="email" name="nemail" id="" required placeholder="Enter Your Email">
+            <button type="submit" class="btn mt-2">Subscribe</button>
+
+          </div>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="col-12 text-center mt-4">
+        <small>Created With <i class="fa fa-heart" aria-hidden="true"></i>  By : <span> Smruti Sourav Nanda</span> </small>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---Animate On Scroll JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!--Initialize AOS-->
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
+
+
+
+
+  <!---Bootstrap 5 JS-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
