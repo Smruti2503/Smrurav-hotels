@@ -941,6 +941,10 @@
 }
 
 @media screen and (max-width: 568px) {
+
+html{
+font-size : 62.5%;
+}
   #order {
     -webkit-transform: translateY(-10%);
             transform: translateY(-10%);
